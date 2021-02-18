@@ -4,7 +4,7 @@ const CityWeather = ({cityWeather}) => {
   
 console.log(cityWeather)
   const kelvinToCel = (temp) => {
-    return temp - 273.15;
+    return (temp - 273.15).toFixed(2);
   };
 
   return (
